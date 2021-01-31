@@ -1,0 +1,4 @@
+function punch()
+{
+    alert('ssss');
+}
