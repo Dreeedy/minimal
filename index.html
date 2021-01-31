@@ -16,16 +16,21 @@
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!--Конец подключения CSS-->
 
-    <script src="jquery.js"></script>
+    <script>
+        function punch()
+        {
+            alert('Вы дали в пузо Артуру! ');
+        }
+    </script>
 
     <title>Дать Артуру в пузо!</title>
 </head>
 <body class="text-center body-signin body-100">
 <!--MAIN-->
 <main class="form-signin">
-    <form action="" method="">
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Войти</button>
-    </form>
+
+        <button id="main_button" class="w-100 btn btn-lg btn-primary" onclick="punch()" type="submit">Дать в пузо!</button>
+
 </main>
 <!--Конец MAIN-->
 </body>
