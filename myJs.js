@@ -5,15 +5,11 @@ function punch()
 
     let main_button = document.getElementById('main_button');
     main_button.textContent = 'ЕБАААААААААШ!';
-
-
 }
 
 function create_grid()
 {
-/*    document.body.style.background = 'red'; // сделать фон красным
-
-    setTimeout(() => document.body.style.background = '', 3000); // вернуть назад*/
+    //setTimeout(() => document.body.style.background = '', 10000); // вернуть назад*/
 
     let rectange = document.createElement('div');
     rectange.id = 'punch'
@@ -48,7 +44,8 @@ function change_margin(myRectangle)
     myRectangle.style.marginLeft = getRandomInt(1, 94)+'%';// 1 94
 
     let score = document.getElementById('score');
-    score.textContent = i;
+    let bbb = 'Ударов отработано: ';
+    score.textContent = bbb+i;
     i++;
 }
 
